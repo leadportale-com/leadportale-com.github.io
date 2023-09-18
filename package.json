@@ -1,0 +1,27 @@
+{
+  "name": "leadportale-com.github.io",
+  "version": "1.0.0",
+  "description": "Public website for leadportale.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leadportale-com/leadportale-com.github.io.git"
+  },
+  "author": "Oliver Tigges",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leadportale-com/leadportale-com.github.io/issues"
+  },
+  "homepage": "https://github.com/leadportale-com/leadportale-com.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.9"
+  }
+}
