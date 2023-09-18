@@ -1,2 +1,3 @@
-# leadportae-com.github.io
-Public website of leadportale.com
+# Public website of leadportale.com
+
+Using TailwindCSS and Vite.
