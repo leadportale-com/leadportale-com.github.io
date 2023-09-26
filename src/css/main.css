@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-a[id] {
+html {
   scroll-behavior: smooth;
 }

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <div class="main-top-wrapper min-vh-70">
+    <div id="page-top-area" class="main-top-wrapper min-vh-70">
       <header
         class="py-4 text-gray-50 shadow-md shadow-gray-400"
         style="min-height: 70vh; background-color: #2068a0"
@@ -105,7 +105,7 @@
                 </li>
               </ul>
               <button
-                class="mt-6 rounded-md bg-green-400 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+                class="mt-6 rounded-md bg-green-600 px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
               >
                 Jetzt 30 Tage kostenlos testen
               </button>
@@ -215,10 +215,10 @@
               </div>
             </div>
             <img
-              src="./images/notebook.svg"
+              src="./images/notebook.png"
               width="672"
               height="576"
-              class="w-[32rem] max-w-none sm:w-[56rem] mt-8 md:-ml-4 lg:-ml-0"
+              class="w-[32rem] max-w-none sm:w-[52rem] mt-8 md:-ml-4 lg:-ml-0"
               alt="Screenshot of leadportale.com on a notebook"
             />
           </div>
@@ -672,6 +672,28 @@
         </div>
       </div>
     </section>
+
+    <div class="fixed bottom-4 right-8">
+      <button
+        id="scroll-to-top"
+        class="p-2 bg-gray-200 ring-brand border rounded-full"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="2.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5"
+          />
+        </svg>
+      </button>
+    </div>
 
     <footer class="text-center my-8 mb-4 py-2">
       <span>&copy; 2023 Leadportale.com GmbH </span>
