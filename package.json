@@ -6,6 +6,7 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
+    "clean": "rimraf assets",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +22,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.15",
     "postcss": "^8.4.29",
+    "rimraf": "^5.0.5",
     "tailwindcss": "^3.3.3",
     "vite": "^4.4.9"
   }
