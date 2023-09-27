@@ -18,6 +18,6 @@ function initScrollToTopButton() {
     observer.observe(top_area);    
 }
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {    
     initScrollToTopButton();
 });
