@@ -1,6 +1,6 @@
 # Public website of leadportale.com
 
-Using TailwindCSS and Vite.
+Using TailwindCSS, Handlebars, and Vite.
 
 ## How to run locally
 
@@ -24,8 +24,7 @@ npm run build
 
 ## Initial setup
 
-    npm i --save-dev vite
-    npm install -D tailwindcss postcss autoprefixer
+    npm install -D tailwindcss postcss autoprefixer vite vite-plugin-handlebars
     mkdir {src,src/js,src/scss}
     touch src/index.html src/js/main.js src/scss/styles.scss vite.config.js
     npx tailwindcss init -p
