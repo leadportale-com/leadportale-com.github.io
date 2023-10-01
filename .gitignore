@@ -1,5 +1,7 @@
-# Node
+# Dist
+dist/
 
+# Node
 node_modules/
 
 # MAC OS
