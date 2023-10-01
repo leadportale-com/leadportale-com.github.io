@@ -14,6 +14,7 @@ export default {
       },
     },
   },
+  publicDir: "../public",
   plugins: [
     handlebars({
       partialDirectory: resolve(__dirname, "src/partials"),
