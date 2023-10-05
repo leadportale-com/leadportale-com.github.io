@@ -28,16 +28,16 @@
         </div>
       </nav>
       <div class="lg:container mx-4 lg:mx-auto mt-5">
-        <div class="pt-8 px-4 lg:px-8">
-          <span class="text-xl font-semibold tracking-wider">
-            So entgeht Ihnen nichts mehr!
-          </span>
-          <h1 class="text-white text-5xl font-bold tracking-wide mt-3 mb-5">
-            Alle Leads auf einer Plattform
-          </h1>
-        </div>
         <div class="lg:flex w-full">
-          <div class="lg:w-1/2 p-4 lg:px-8">
+          <div class="lg:w-1/2 py-8 px-4 lg:px-8">
+            <div class="">
+              <span class="text-xl font-semibold tracking-wider">
+                So entgeht Ihnen nichts mehr!
+              </span>
+              <h1 class="text-white text-5xl font-bold tracking-wide mt-3 mb-5">
+                Alle Leads auf einer Plattform
+              </h1>
+            </div>
             <span class="text-white my-3 text-lg">
               Erhalten Sie Zugriff auf Leads von verschiedensten Lead-Portalen
               - <br />
@@ -70,23 +70,9 @@
               Jetzt 30 Tage kostenlos testen
             </button>
           </div>
-          <div class="lg:w-1/2 p-6 items-center">
-            <iframe
-              class="self-center border border-gray-600 rounded-md mx-auto w-full h-[16rem] md:h-[22rem] lg:h-[20rem] 2xl:h-[22rem]"
-              loading="lazy" src="https://www.youtube.com/embed/O0NAc63OuX4?si=_fqSNpdTRlMI3gMO"
-              title="Leadportale.com - Kurz erklärt" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
+          <div class="lg:w-1/2 px-6 items-center">
+            <div id="lottie"></div>
           </div>
-          <!--div class="text-center pb-2">
-              <img
-                src="./images/notebook-filter-static.svg"
-                width="886"
-                height="498"
-                class="min-w-md max-w-xl"
-                alt="Illustration of lead filter"
-              />
-            </div-->
         </div>
       </div>
     </header>
@@ -110,16 +96,25 @@
         </div>
 
         <div class="my-3 px-4">
-          <h2 class="font-semibold text-lg my-1">Mühelos anzupassen</h2>
+          <h2 class="font-semibold text-lg my-1">Mühelos integrieren</h2>
           <p class="leading-relaxed">
-            Wir binden die Zugänge Ihrer Lead-Portale schnell und
-            unkompliziert für Sie ein.
+            Lassen Sie die E-Mails von Ihren Lead-Portalen einfach in die Leadportale.com App weiterleiten.
           </p>
         </div>
       </div>
     </section>
     <hr class="mx-10 my-6" />
   </div>
+
+  <section class="my-8 px-6 py-8">
+    <iframe
+      class="self-center border border-gray-600 rounded-md mx-auto w-full h-[20rem] md:w-[40rem] md:h-[21rem] lg:w-[44rem] lg:h-[22rem] 2xl:w-[46rem] 2xl:h-[26rem]"
+      loading="lazy" src="https://www.youtube.com/embed/O0NAc63OuX4?si=_fqSNpdTRlMI3gMO"
+      title="Leadportale.com - Kurz erklärt" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+
+  </section>
 
   <section class="container mx-auto">
     <div class="overflow-hidden bg-white">
@@ -391,7 +386,7 @@
                 </p>
               </div>
               <p class="mt-4 text-sm leading-6 text-gray-600">
-                Für Makleragenturen und Startups.
+                Für Leadnehmer, Leadgeber und Startups.
               </p>
               <p class="mt-6 flex items-baseline gap-x-1">
                 <span class="text-4xl font-bold tracking-tight text-gray-900">ab EUR 149</span>
@@ -451,7 +446,7 @@
               </div>
               <p class="mt-4 text-sm leading-6 text-gray-600">
                 Für große Unternehmen mit individuellen Anforderungen, z.B.
-                Real-Estate, Finanz, Bausparkassen.
+                Immobilienmakler, Bausparkassen, Finanzunternehmen, Banken, Solarfirmen oder Küchenstudios.
               </p>
               <p class="mt-6 flex items-baseline gap-x-1">
                 <span class="text-2xl font-bold tracking-tight text-gray-900">Individuelle Vereinbarung</span>
@@ -577,30 +572,17 @@
         </div>
       </div>
     </section>
-
-    <div class="fixed bottom-4 right-8">
-      <button
-        id="scroll-to-top"
-        class="p-2 bg-gray-200 ring-brand border rounded-full"
-      >
-        <span class="sr-only">Nach oben scrollen</span>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="2.5"
-          stroke="currentColor"
-          class="w-6 h-6"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5"
-          />
-        </svg>
-      </button>
-    </div>
     -->
+
+  <div class="fixed bottom-4 right-8">
+    <button id="scroll-to-top" class="p-2 bg-gray-200 ring-brand border rounded-full">
+      <span class="sr-only">Nach oben scrollen</span>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"
+        class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
+      </svg>
+    </button>
+  </div>
   {{>footer}}
 
 </body>
