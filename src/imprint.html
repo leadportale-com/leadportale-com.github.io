@@ -1,102 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Lead management application for real estate brokers. Imprint."
-    />
-    <title>Leadportale.com - Impressum</title>
-    <script type="module" crossorigin src="./js/main.js" defer></script>
-    <link rel="stylesheet" href="./css/main.css" />
-    <style>
-      p {
-       padding: 0.2rem 0;
-      }
-    </style>
-  </head>
-  <body class="h-full">
-    <div class="main-top-wrapper">
-      <header
-        class="py-4 text-gray-50 shadow-md shadow-gray-400"
-        style="background-color: #2068a0"
-      >
-        <nav class="container mx-auto navbar px-4 lg:px-8 xl:px-16">
-          <div class="flex">
-            <a class="" href="/">
-              <img src="images/logo-leadportale-1.svg" width="120" hieght="80" alt="leadportale.com brand logo"/>
-            </a>
-            <div class="ms-auto">
-              <a class="nav-link text-white text-decoration-none" href="#"
-                >Funktionen</a
-              >
-            </div>
-            <div class="mx-4">
-              <a class="nav-link text-white text-decoration-none" href="#"
-                >Preise</a
-              >
-            </div>
-          </div>
-        </nav>
-      </section>
-    </div>
 
-    <section class="container mx-auto py-8 h-full">
-      <h1 class="text-4xl font-bold my-3">Impressum</h1>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Lead management application for real estate brokers. Imprint." />
+  <title>Leadportale.com - Impressum</title>
+  <script type="module" crossorigin src="./js/main.js" defer></script>
+  <link rel="stylesheet" href="./css/main.css" />
+  <style>
+    p {
+      padding: 0.2rem 0;
+    }
+  </style>
+</head>
 
-      <h2 class="text-lg font-semibold mt-8">
-        Angaben gemäß § 5 TMG
-      </h2>
+<body class="h-full">
+  <div class="main-top-wrapper">
+    <header class="py-4 text-gray-50 shadow-md shadow-gray-400" style="background-color: #2068a0">
+      {{> top_nav}}
+    </header>
+  </div>
 
-      <p>
-        Leadportale.com GmbH <br />
-        Gustav-Heinemann-Ufer 56, 50968 Köln
-      </p>
+  <section class="container mx-auto py-8 h-full">
+    <h1 class="text-4xl font-bold my-3">Impressum</h1>
 
-      <p>
-        Vertreten durch:  <br />
-        Stefan Kleefisch
-      </p>
+    <h2 class="text-lg font-semibold mt-8">
+      Angaben gemäß § 5 TMG
+    </h2>
 
-      <p>
-        Kontakt:<br />
-        T. +49 2 21 – 64 30 34 30<br />
-        F. +49 2 21 – 64 30 34 31<br />
-        info@leadportale.com<br />
-        www.leadportale.com
-      </p>
-      
-      <p>
-        Umsatzsteuer-ID: 219/5824/3659<br />
-        Umsatzsteuer-Identifikationsnummer gemäß §27a        
-      </p>
-        
-      <p>
-        Registergericht: Amtsgericht Köln, HRB 106568
-      </p>
-      
-      <p>        
-        Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: Stefan Kleefisch
-      </p>  
-      <p>
-        
-        Haftungshinweis: Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
-      </p>  
-      <p>        
-        Die Europäische Kommission hat eine Europäische Plattform zur Online-Streitbeilegung („OS-Plattform“) bereitzustellen. Die OS-Plattform ist im Internet unter der Internet-Adresse
-        <a href="http://ec.europa.eu/consumers/odr/" class="text-blue">http://ec.europa.eu/consumers/odr/</a> abrufbar. 
-        Wir sind weder bereit noch verpflichtet, an außergerichtlicher Streitbeilegung teilzunehmen.        
-      </p>       
-    </section>
+    <p>
+      Leadportale.com GmbH <br />
+      Gustav-Heinemann-Ufer 56, 50968 Köln
+    </p>
 
-    <footer class="text-center my-8 mb-4 py-2">
-      <span>&copy; 2023 Leadportale.com GmbH </span>
-      <a class="mx-2 hover:text-blue" href="/privacy.html">Datenschutz</a>
-      <a class="mx-2 hover:text-blue" href="/agb.html">AGB</a>
-      <a class="mx-2 hover:text-blue" href="/imprint.html">Impressum</a>
-      <span class="mx-2">0221 / 64 30 34 30</span>
-      <span>Gustav-Heinemann-Ufer 56, 50968 Köln-Bayenthal</span>
-    </footer>
-  </body>
+    <p>
+      Vertreten durch: <br />
+      Stefan Kleefisch
+    </p>
+
+    <p>
+      Kontakt:<br />
+      T. +49 2 21 – 64 30 34 30<br />
+      F. +49 2 21 – 64 30 34 31<br />
+      info@leadportale.com<br />
+      www.leadportale.com
+    </p>
+
+    <p>
+      Umsatzsteuer-ID: 219/5824/3659<br />
+      Umsatzsteuer-Identifikationsnummer gemäß §27a
+    </p>
+
+    <p>
+      Registergericht: Amtsgericht Köln, HRB 106568
+    </p>
+
+    <p>
+      Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: Stefan Kleefisch
+    </p>
+    <p>
+
+      Haftungshinweis: Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer
+      Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+    </p>
+    <p>
+      Die Europäische Kommission hat eine Europäische Plattform zur Online-Streitbeilegung („OS-Plattform“)
+      bereitzustellen. Die OS-Plattform ist im Internet unter der Internet-Adresse
+      <a href="http://ec.europa.eu/consumers/odr/" class="text-blue">http://ec.europa.eu/consumers/odr/</a> abrufbar.
+      Wir sind weder bereit noch verpflichtet, an außergerichtlicher Streitbeilegung teilzunehmen.
+    </p>
+  </section>
+
+  <footer class="text-center my-8 mb-4 py-2">
+    <span>&copy; 2023 Leadportale.com GmbH </span>
+    <a class="mx-2 hover:text-blue" href="/privacy.html">Datenschutz</a>
+    <a class="mx-2 hover:text-blue" href="/agb.html">AGB</a>
+    <a class="mx-2 hover:text-blue" href="/imprint.html">Impressum</a>
+    <span class="mx-2">0221 / 64 30 34 30</span>
+    <span>Gustav-Heinemann-Ufer 56, 50968 Köln-Bayenthal</span>
+  </footer>
+</body>
+
 </html>
