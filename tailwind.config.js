@@ -18,6 +18,7 @@ module.exports = {
           900: "#32491e",
           950: "#18280b",
         },
+        "inspired-gray": "#3a3a3a",
       },
     },
     fontFamily: {
